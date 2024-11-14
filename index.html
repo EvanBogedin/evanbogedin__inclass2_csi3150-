@@ -9,8 +9,58 @@
     <script src="./js/script.js" defer></script>
   </head>
   <body>
-    <header></header>
-    <section></section>
+    <header>
+      Welcome to the Interactive ABCs of CSS Technology learning Website
+    </header>
+    <section>
+      <h1>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h1>
+      <div class="abc-container">
+        <div class="container">
+          <div class="container2">
+            <div id="hide-container-a" hidden>
+              <div id="a" class="img-container">
+                <img src="/assets/images/css-letter-a.png" alt="" />
+                <button class="hide-button" onclick="hideA()">
+                  Hide Results
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="letter-button" onclick="showA()">A</button>
+        </div>
+
+        <div class="container">
+          <div class="container2">
+            <div id="hide-container-b" hidden>
+              <div id="b" class="img-container">
+                <img src="/assets/images/css-letter-b.png" alt="" />
+                <button class="hide-button" onclick="hideB()">
+                  Hide Results
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="letter-button" onclick="showB()">B</button>
+        </div>
+
+        <div class="container">
+          <div class="container2">
+            <div id="hide-container-c" hidden>
+              <div id="c" class="img-container">
+                <img src="/assets/images/css-letter-C.png" alt="" />
+                <button class="hide-button" onclick="hideC()">
+                  Hide Results
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="letter-button" onclick="showC()">C</button>
+        </div>
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>

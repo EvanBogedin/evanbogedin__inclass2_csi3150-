@@ -1,63 +1,30 @@
-let htmlElement = document.querySelector("div"); //only brings the first one of ist type if ther are multiple occurences
-let htmlElementAll = document.querySelectorAll("div"); //all occurences of the element
+const aButton = document.getElementById("a-button");
+const bButton = document.getElementById("b-button");
+const cButton = document.getElementById("c-button");
+const hideContainerA = document.getElementById("hide-container-a");
+const hideContainerB = document.getElementById("hide-container-b");
+const hideContainerC = document.getElementById("hide-container-c");
 
-/**comments in javascript */
-//return_type function_name(parameters){
-//logic
-//return
-//}
-
-//input name attribute and value attribute
-
-function sum(para1, para2) {
-  //logic
-  //return
+function showA() {
+  hideContainerA.hidden = false;
 }
 
-let outputVar = sum(2, 5);
+function hideA() {
+  hideContainerA.hidden = true;
+}
 
-let sumArrow = (para1, para2) => {
-  //logic
-  //return
-};
+function showB() {
+  hideContainerB.hidden = false;
+}
 
-let sumArrow2 = (p1, p2) => {
-  return p1 + p2;
-};
+function hideB() {
+  hideContainerB.hidden = true;
+}
 
-sumArrow(2, 5);
+function showC() {
+  hideContainerC.hidden = false;
+}
 
-htmlElement.addEventListener("click", (e) => {
-  //e.target.value
-  //e.target.name
-  //logic
-  //?
-});
-
-if ("21" == 21);
-
-if ("21" === 21)
-  //what is the difference between == and === in js
-
-  //not ''
-  console.log(`The user input name is ${firstName} ${lastName}`);
-
-let student = {
-  studentName: "john",
-  studentGPA: 2.45,
-  studentAddress: {
-    street: "123 street",
-    zip: 64312,
-    state: "MO",
-  },
-  studentHobby: ["swimming", "reading", "gamedev"],
-  studentMajorStanding: true,
-};
-
-studentFromMO = student.filter((student) => {
-  //logic to filter students where state is MO
-});
-
-//.forEach(callBackFunction)
-//.map()
-//.filter
+function hideC() {
+  hideContainerC.hidden = true;
+}
