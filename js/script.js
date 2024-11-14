@@ -1,5 +1,5 @@
 let htmlElement = document.querySelector("div"); //only brings the first one of ist type if ther are multiple occurences
-let htmlElementAll = document.querySelectorAll("div"); //all occureces of the element
+let htmlElementAll = document.querySelectorAll("div"); //all occurences of the element
 
 /**comments in javascript */
 //return_type function_name(parameters){
