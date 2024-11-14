@@ -1,89 +1,88 @@
-html{
-    display: flex;
-    flex-direction: column;
+html {
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
+  align-items: center;
 }
 
-body{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(86, 170, 86);
+body {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86, 170, 86);
 
-    padding: 5px;
+  padding: 5px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    width: 896px;
-
+  align-items: center;
+  width: 64%;
+  min-width: 900px;
 }
 
-header{
-    font-size: 32px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(86, 170, 86);
-    padding: 5px;
-    font-weight: 100;
+header {
+  font-size: 32px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86, 170, 86);
+  padding: 5px;
+  font-weight: 100;
 }
 
-h1{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(86, 170, 86);
-    padding: 5px;
-    font-weight: 100;
-    
+h1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86, 170, 86);
+  padding: 5px;
+  font-weight: 100;
 }
 
-img{
-    width: 256px;
+img {
+  width: 256px;
 }
 
-.container{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(86, 170, 86);
+.container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86, 170, 86);
 
-    padding: 5px;
+  padding: 5px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
+  align-items: center;
 
-    width: 256px;
+  width: 256px;
 }
 
-.container2{
-    height: 295px;
+.container2 {
+  height: 295px;
 }
 
-.abc-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
+.abc-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
-.img-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.letter-button{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(86, 170, 86);
+.letter-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86, 170, 86);
 
-    width: 128px;
-    height: 32px;
+  width: 128px;
+  height: 32px;
 }
 
-.hide-button{
-    background-color: rgb(241, 73, 73);
-    width: 200px;
-    margin: 5px;
+.hide-button {
+  background-color: rgb(241, 73, 73);
+  width: 200px;
+  margin: 5px;
 }
